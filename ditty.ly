@@ -20,14 +20,14 @@ A = {
 
     \relative e'' {
         | b'4 b b gs8 e
-        | fs8 e fs gs fs4 cs
+        | fs8 gs fs gs fs4 cs
         | b'4 b b gs8 e
         | fs8 gs fs4 e2
         }
 
     \relative e'' {
         | b'4 b b gs8 e
-        | fs8 e fs gs fs4 cs
+        | fs8 gs fs gs fs4 cs
         | b'4 b b gs8 e
         | fs8 gs fs4 e2
         }
@@ -41,7 +41,7 @@ A = {
 
     \relative e'' {
         | b'4 b b gs8 e
-        | fs8 e fs gs fs4 cs
+        | fs8 gs fs gs fs4 cs\fermata
         | b'4 b b gs8 e
         | fs8 gs fs4 e2\fermata
         }
@@ -77,7 +77,7 @@ B = {
 
     \relative e' {
         | e2 gs
-        | a4 as b b,
+        | a4 as b b,\fermata
         | gs4 bs cs8 ds e gs
         | a4 b e,2\fermata
         }
