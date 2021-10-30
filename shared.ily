@@ -1,6 +1,6 @@
 \include "english.ly"
 
 \header {
-    composer = "Lambda Fairy"
+    composer = "lambda fairy"
     tagline = ""
     }
