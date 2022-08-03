@@ -11,7 +11,7 @@ jobs:
 
     - name: Install LilyPond
       run: |
-        wget -O lilypond.sh https://lilypond.org/download/binaries/linux-64/lilypond-2.22.1-1.linux-64.sh
+        wget -O lilypond.sh https://lilypond.org/download/binaries/linux-64/lilypond-2.22.2-1.linux-64.sh
         sh lilypond.sh --batch
         $HOME/bin/lilypond --version
 
