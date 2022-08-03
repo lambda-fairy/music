@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.22.2"
 
 \include "articulate.ly"
 \include "shared.ily"
@@ -8,7 +8,7 @@
 \header {
     title = "dishes"
     copyright = "© 2022"
-    }
+}
 
 stuff = <<
     \relative g' {
@@ -26,21 +26,21 @@ stuff = <<
         | b4 a8 g fs4
 
         \bar "|."
-        }
+    }
 
     \addlyrics {
         I've got to wash the dish -- es
         by hand
         cuz the dish -- wash -- er broke
-        }
-    >>
+    }
+>>
 
 \score {
     \stuff
-    \layout { }
-    }
+    \layout {}
+}
 
 \score {
     \articulate \stuff
-    \midi { }
-    }
+    \midi {}
+}
