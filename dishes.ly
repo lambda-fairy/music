@@ -30,7 +30,7 @@ vocals = <<
     }
 
     \addlyrics {
-        I've got to wash the dish -- es
+        I’ve got to wash the dish -- es
         by hand
         cuz the dish -- wash -- er broke
     }
