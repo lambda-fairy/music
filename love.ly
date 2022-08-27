@@ -25,8 +25,8 @@ vocals = <<
             | g r a8( b)
             \break
             \time 4/4
-            | c4.\fermata f,8 e4 d
-            | c1
+            | c2.\fermata e,4
+            | f8 e d4 c2
         }
 
         \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
@@ -43,7 +43,7 @@ vocals = <<
         To -- day
         I’m filled
         with love
-        for ev’ -- ry -- one.
+        for ev -- e -- ry -- one.
     }
 >>
 
@@ -52,8 +52,8 @@ right_hand = \relative c' {
     r4
     | <b f' g>2-- r4
     | <b f' g>2-- << { a'8( b) } \\ <c, f>4 >>
-    | r4\fermata r8 <a f'>( <g e'>4)-. <f d'>-.
-    | <e c'>1--
+    | r2\fermata r4 <g e'>(
+    | <a f'>8)-. <g e'>-. <f d'>4-- <e c'>2--
 }
 
 left_hand = \relative c {
@@ -62,8 +62,8 @@ left_hand = \relative c {
     r4
     | r4 g2--
     | r4 g8( f e d)
-    | r4\fermata f( g)-. g,-.
-    | << c1 \\ { r4 c,2.-- } >>
+    | r2\fermata a'(
+    | f4-.) g-. << c,2-- \\ { r4 c,-- } >>
 }
 
 stuff = <<
