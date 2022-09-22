@@ -3,7 +3,7 @@
 \include "articulate.ly"
 \include "shared.ily"
 
-#(set-global-staff-size 28)
+#(set-global-staff-size 23)
 
 \header {
     title = "jeanie"
@@ -124,7 +124,7 @@ left_hand = \relative e {
             | a2 gs!4 cs
         }
     >>
-    | c4 <a, a'> <fs fs'> <b b'>
+    | c4 <a, a'> <fs fs'> <b b'>8 <a a'>
 
     | \slurDown gs16( gs' e' gs b8 \change Staff = "R" e)
     \change Staff = "L" \slurNeutral <a,,, a'>4-- <b b'>--
@@ -145,7 +145,12 @@ stuff =
 
 \score {
     \stuff
-    \layout {}
+    \layout {
+        \context {
+            \Score
+            \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
+        }
+    }
 }
 
 \score {
